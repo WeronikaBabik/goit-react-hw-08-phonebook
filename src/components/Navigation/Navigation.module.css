@@ -1,0 +1,24 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  border-bottom: 3px solid rgb(0, 0, 0);
+  font-size: 20px;
+}
+.navigation {
+  width: 100%;
+}
+.navLink {
+  text-decoration: none;
+  padding: 0 20px;
+}
+
+.active {
+  composes: navLink;
+  color: red;
+}
+.mainNav {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}

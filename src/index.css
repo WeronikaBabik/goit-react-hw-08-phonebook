@@ -7,9 +7,52 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: url(../src/components/phone-book_7229022.png) no-repeat;
+  background: rgb(238, 174, 202);
+  background: linear-gradient(
+    90deg,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 64%
+  );
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+button {
+  padding: 4px 8px;
+  cursor: pointer;
+  border-radius: 4px;
+  border: 1px solid #00095bb3;
+  background-color: white;
+}
+button:hover,
+button:focus {
+  background-color: #00095bb3;
+  color: white;
+  transition: background-color 0.5s linear;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  padding: 12px;
+  background-color: #44b0ee;
+  border: 1px solid #00095bb3;
+  border-radius: 5px;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+  color: #000000;
+  font-weight: 500;
+}
+input {
+  margin: 10px 0;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
 }

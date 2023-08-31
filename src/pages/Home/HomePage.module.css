@@ -1,0 +1,17 @@
+.title {
+  font-weight: 700;
+  font-size: 60px;
+  text-align: center;
+}
+.description {
+  font-weight: 500;
+  font-size: 30;
+  text-align: center;
+}
+.logged {
+  font-size: 15;
+  text-align: end;
+}
+.main {
+  min-width: 500px;
+}
